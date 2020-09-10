@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import Product from "./Product";
 import Ad from "./Ad";
+import InitialProducts from "./InitialProducts";
 
 function Home() {
   return (
@@ -9,11 +10,35 @@ function Home() {
       <div className="home__container">
         <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Beauty_v2_en_US_1x._CB429089975_.jpg"
           alt=""
         />
+        <div className="home__row"><Ad /></div>
+        
+        <div className ="home__row">
 
-        <Ad />
+            <InitialProducts
+            title = "AmazonBasics"
+            image = "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg"
+            a = "See more"
+             />
+
+<InitialProducts
+            title = "Electronics"
+            image = "https://images-na.ssl-images-amazon.com/images/I/41WOalZ1N5L._AC_SY200_.jpg"
+            a = "See more"
+             />
+
+<InitialProducts
+            title = "Back to School"
+            image = "https://m.media-amazon.com/images/I/31Q2BJwhpgL._AC_SR160,200_.jpg"
+            a = "See more"
+             />
+           
+          
+
+
+        </div>
 
         <div className="home__row">
           <Product

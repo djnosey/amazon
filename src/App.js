@@ -7,6 +7,7 @@ import Checkout from "./Checkout";
 import Login from "./Login";
 import { auth } from "./firebase";
 import { useStateValue } from "./StateProvider";
+import Header2 from "./Header2";
 
 function App() {
   const [{}, dispatch] = useStateValue();
@@ -48,6 +49,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
+            <Header2 />
             <Home />
           </Route>
         </Switch>
