@@ -1,64 +1,73 @@
-import React from 'react'
-import "./home.css"
-import Product from './Product'
+import React from "react";
+import "./home.css";
+import Product from "./Product";
+import Ad from "./Ad";
 
 function Home() {
-    return (
-        <div className ="home">
-            <div className ="home__container">
-            <img className='home__image' src='https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg' alt='Amazon Prime' />
+  return (
+    <div className="home">
+      <div className="home__container">
+        <img
+          className="home__image"
+          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          alt=""
+        />
 
-            <div className ="home__row">
+        <Ad />
 
-                <Product 
-                title="The Lean Startup: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses" 
-                price={19.99} 
-                image="https://m.media-amazon.com/images/I/510AO7UjVPL._AC_UY218_.jpg" 
-                rating={3} 
-                />
-
-                <Product
-                title="Xiaomi Mi Electric Scooter, 18.6 Miles Long-range Battery, Up to 15.5 MPH, Easy Fold-n-Carry Design, Ultra-Lightweight Adult Electric Scooter (US Version with Warranty)"
-                price={391.99}
-                image="https://m.media-amazon.com/images/I/51Qtg4L+JmL._AC_UL320_.jpg"
-                rating= {4} />
-            </div>
-
-            <div className ="home__row">
-            <Product
-                title="Hori Nintendo Switch Mario Kart Racing Wheel Pro Mini By - Officially Licensed By Nintendo - Nintendo Switch"
-                price={67.80}
-                image="https://m.media-amazon.com/images/I/61AZuzqio9L._AC_UL320_.jpg"
-                rating= {5} />
-
-            <Product 
-            title= "Kai'Sa Tyler The Creator & Hornets Poster Art Print Posters,18''×24'' Unframed Poster Print"
-            price= {14.99}
-            image= "https://m.media-amazon.com/images/I/81ZhrZAkvoL._AC_UL320_.jpg"
-            rating= {3}
-             />
-
-            <Product 
-            title= "School Backpack,Vaschy Unisex Classic Water-resistant Backpack for Men Women."
-            price= {29.89}
-            image= "https://m.media-amazon.com/images/I/81UbNUfvstL._AC_UL320_.jpg"
-            rating= {4}
-             />
-            </div>
-
-            <div className ="home__row">
-            <Product 
-            title= "Sceptre 30-Inch 21: 9 Curved Creative Monitor C305W-2560UN 2560x1080p Ultra Wide Ultra Slim HDMI DisplayPort Up to 85Hz Mprt 1ms FPS-RTS Build-in Speakers, Machine Black 2020"
-            price= {149.99}
-            image= "https://m.media-amazon.com/images/I/81pv0g8bQhL._AC_UY218_.jpg"
-            rating= {4}
-             />
-            
-            </div>
-
-            </div>
+        <div className="home__row">
+          <Product
+            id="12321341"
+            title="The Lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback"
+            price={11.96}
+            rating={5}
+            image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
+          />
+          <Product
+            id="49538094"
+            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+            price={239.0}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+          />
         </div>
-    )
+
+        <div className="home__row">
+          <Product
+            id="4903850"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
+            price={199.99}
+            rating={3}
+            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
+          />
+          <Product
+            id="23445930"
+            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
+            price={98.99}
+            rating={5}
+            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
+          />
+          <Product
+            id="3254354345"
+            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
+            price={598.99}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
+          />
+        </div>
+
+        <div className="home__row">
+          <Product
+            id="90829332"
+            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440"
+            price={1094.98}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg"
+          />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default Home
+export default Home;
