@@ -20,14 +20,14 @@ function Home() {
 
         <div className="home__row">
           <InitialProducts
-            title="AmazonBasics"
+            title="Electronics"
             image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg"
             a="See more"
           />
 
           <InitialProducts
-            title="Electronics"
-            image="https://images-na.ssl-images-amazon.com/images/I/41WOalZ1N5L._AC_SY200_.jpg"
+            title="Amazon Super - Buy more, pay less "
+            image="https://images-eu.ssl-images-amazon.com/images/G/30/ITES_Amazon_Super/XCM_Manual_ORIGIN_1229035_1206048_IT_it_it_amazon_super_traffic_drivers_it_it_3145424_379x304_1X_it_IT._SY304_CB410657087_.jpg"
             a="See more"
           />
 
@@ -40,29 +40,7 @@ function Home() {
           <Ad2 />
 
         </div>
-        <div className="home__row">
-          <Product
-            id="4903850"
-            title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
-            price={199.99}
-            rating={3}
-            image="https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg"
-          />
-          <Product
-            id="23445930"
-            title="Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric"
-            price={98.99}
-            rating={5}
-            image="https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_retinamobilex2$"
-          />
-          <Product
-            id="3254354345"
-            title="New Apple iPad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)"
-            price={598.99}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg"
-          />
-        </div>
+        
 
         
 
