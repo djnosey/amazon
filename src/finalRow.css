@@ -13,7 +13,7 @@
 
   }
 
-  .finalRow > button {
+  .finalRow > a > button {
     width: auto;
     margin-top: 20px;
     background: #f0c14b;

@@ -5,12 +5,14 @@ import cd2 from '/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/images
 import cd3 from '/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/images/finalRow-images/cd3.jpg'
 import cd4 from '/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/images/finalRow-images/cd4.jpg'
 import cd5 from '/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/images/finalRow-images/cd5.jpg'
-
+import {Link} from 'react-router-dom'
 function FinalRow() {
     return (
         <div className ="finalRow">
             <h2>Gift ideas inspired by your shopping history</h2>
-            <button>Sign in to see personalised recommendations</button>
+
+            <Link to = "/login"><button>Sign in to see personalised recommendations</button></Link>
+            
             
             <div className = "finalRow__imageContainer">
                 <img src = {cd1}></img>
