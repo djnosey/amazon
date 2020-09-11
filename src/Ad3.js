@@ -1,5 +1,5 @@
 import React from 'react'
-import ad1 from './ad1.jpg'
+import ad1 from './images/ad1.jpg'
 import './ad3.css'
 
 function Ad3() {

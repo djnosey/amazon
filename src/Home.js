@@ -5,6 +5,7 @@ import Ad from "./Ad";
 import InitialProducts from "./InitialProducts";
 import Ad2 from "./Ad2";
 import Ad3 from "./Ad3";
+import Ad4 from "./Ad4";
 
 function Home() {
   return (
@@ -101,6 +102,13 @@ function Home() {
             image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
         </div>
+
+        <div className ="home__row">
+
+          <Ad4 />
+
+        </div>
+
       </div>
     </div>
   );
