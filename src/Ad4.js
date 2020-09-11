@@ -11,7 +11,7 @@ function Ad4() {
   return (
     <div className="ad4">
       <div className ="ad4__h2Container">
-        <h2>Amazon's services</h2>
+        <h2>Discover Amazon</h2>
         <p>Click to learn more</p>
       </div>
       <div className ="ad4__imageContainer">

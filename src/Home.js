@@ -7,14 +7,16 @@ import Ad2 from "./Ad2";
 import Ad3 from "./Ad3";
 import Ad4 from "./Ad4";
 import FinalRow from "./FinalRow";
+import homeImage from '/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/images/homeImage.jpg'
+import BackToTop from "./BackToTop";
 
 function Home() {
   return (
     <div className="home">
-      <div className="home__container">
+      <div id="top" className="home__container">
         <img
           className="home__image"
-          src="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2020/May/Hero/Fuji_TallHero_Beauty_v2_en_US_1x._CB429089975_.jpg"
+          src= {homeImage}
           alt=""
         />
         <div className="home__row">
@@ -122,6 +124,10 @@ function Home() {
         <div className="home__row">
           <FinalRow />
 
+        </div>
+
+        <div className ="home__row">
+          <BackToTop />
         </div>
 
       </div>
