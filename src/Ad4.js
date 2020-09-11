@@ -15,12 +15,12 @@ function Ad4() {
         <p>Click to learn more</p>
       </div>
       <div className ="ad4__imageContainer">
-        <img src={service1}></img>
-        <img src={service2}></img>
-        <img src={service3}></img>
-        <img src={service4}></img>
-        <img src={service5}></img>
-        <img src={service6}></img>
+        <img alt="logo1" src={service1}></img>
+        <img alt="logo2" src={service2}></img>
+        <img alt="logo3" src={service3}></img>
+        <img alt="logo4" src={service4}></img>
+        <img alt="logo5" src={service5}></img>
+        <img alt="logo6" src={service6}></img>
       </div>
     </div>
   );
