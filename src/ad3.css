@@ -1,0 +1,18 @@
+.ad3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px 5px 15px 5px;
+    max-height: 500px;
+    min-width: 100px;
+    background-color: white;
+    z-index: 1;
+
+  }
+
+.ad3 > img {
+    max-width: 95%;
+    max-height: 95%;
+  
+}
