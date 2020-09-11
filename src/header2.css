@@ -8,6 +8,9 @@
     top:0;
     z-index: 100;  
     color: white;  
+    position: sticky;
+    top: 60px;
+    
 }
 .header2__imageAndList{
     display: flex;
@@ -22,7 +25,14 @@
     margin-right:60px;
     margin-top: 3px;
     margin-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-right: 2px;
     
+}
+
+.header2__locationContainer:hover {
+    border: 1px solid white;
 }
 
 .header2__option{
@@ -49,18 +59,24 @@
 }
 
 .header2__ul > li {
-    padding: 8px;
+    margin: 2px;
+    padding: 10px 7px 2px 5px;
     color: #cccccc;
+}
+
+.header2__ul li:hover {
+    border: 1px solid white;
 }
 
 .header2__final {
     font-size: 14px;
     font-weight: 800;
-    margin-right: auto;
     margin-bottom: 3px;
     width: 350px;
-    
-    
-    
+    padding: 8px;
 }
 
+.header2__final:hover {
+    border: 1px solid white;
+
+}

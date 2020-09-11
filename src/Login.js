@@ -56,7 +56,7 @@ function Login() {
                 </form>
 
                 <p>
-                    By signing-in you agree to the AMAZON FAKE CLONE Conditions of Use & Sale. Please
+                    By signing-in you agree to the Amazon Clone Conditions of Use & Sale. This is not Amazon, please dont use sensitive email or password to sign in. Please
                     see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
 

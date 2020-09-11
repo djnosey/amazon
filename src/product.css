@@ -30,10 +30,12 @@
 
 .product > button {
   background: #f0c14b;
+  background: linear-gradient(0deg,rgba(246,196,33,0.9) 30%, rgba(245,220,149,0.8) 100%);
   border: 1px solid;
   margin-top: 10px;
   border-color: #a88734 #9c7e31 #846a29;
   color: #111111;
+  padding: 4px;
 }
 
 .product__rating{
