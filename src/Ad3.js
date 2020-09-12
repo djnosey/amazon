@@ -1,13 +1,13 @@
-import React from 'react'
-import ad1 from './images/ad1.jpg'
-import './ad3.css'
+import React from "react";
+import ad1 from "./images/ad1.jpg";
+import "./ad3.css";
 
 function Ad3() {
-    return (
-        <div className ="ad3">
-            <img src ={ad1}></img>
-        </div>
-    )
+  return (
+    <div className="ad3">
+      <img src={ad1}></img>
+    </div>
+  );
 }
 
-export default Ad3
+export default Ad3;

@@ -7,24 +7,21 @@ import Ad2 from "./Ad2";
 import Ad3 from "./Ad3";
 import Ad4 from "./Ad4";
 import FinalRow from "./FinalRow";
-import homeImage from '/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/images/homeImage.jpg'
+import homeImage from "/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/images/homeImage.jpg";
 import BackToTop from "./BackToTop";
+import Footer1 from "./Footer1";
 
 function Home() {
   return (
     <div className="home">
       <div id="top" className="home__container">
-        <img
-          className="home__image"
-          src= {homeImage}
-          alt=""
-        />
+        <img className="home__image" src={homeImage} alt="" />
         <div className="home__row">
           <Ad />
         </div>
 
         <div className="home__row">
-          <InitialProducts 
+          <InitialProducts
             title="Electronics"
             image="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2019/July/amazonbasics_520x520._SY304_CB442725065_.jpg"
             a="See more"
@@ -89,7 +86,6 @@ function Home() {
             rating={4}
             image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
           />
-
         </div>
 
         <div className="home__row">
@@ -123,13 +119,12 @@ function Home() {
 
         <div className="home__row">
           <FinalRow />
-
         </div>
 
-        <div className ="home__row">
+        
           <BackToTop />
-        </div>
-
+        
+        <Footer1 />
       </div>
     </div>
   );

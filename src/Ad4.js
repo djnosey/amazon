@@ -10,11 +10,11 @@ import service6 from "/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/i
 function Ad4() {
   return (
     <div className="ad4">
-      <div className ="ad4__h2Container">
+      <div className="ad4__h2Container">
         <h2>Discover Amazon</h2>
         <p>Click to learn more</p>
       </div>
-      <div className ="ad4__imageContainer">
+      <div className="ad4__imageContainer">
         <img alt="logo1" src={service1}></img>
         <img alt="logo2" src={service2}></img>
         <img alt="logo3" src={service3}></img>

@@ -1,82 +1,78 @@
 .header2 {
-    height :40px;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(32,46,63);
-    top:0;
-    z-index: 100;  
-    color: white;  
-    position: sticky;
-    top: 60px;
-    
+  height: 40px;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(32, 46, 63);
+  top: 0;
+  z-index: 100;
+  color: white;
+  position: sticky;
+  top: 60px;
 }
-.header2__imageAndList{
-    display: flex;
-    width: 100%;
+.header2__imageAndList {
+  display: flex;
+  width: 100%;
 }
 
 .header2__locationContainer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin-left: 10px;
-    margin-right:60px;
-    margin-top: 3px;
-    margin-bottom: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    padding-right: 2px;
-    
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+  margin-right: 60px;
+  margin-top: 3px;
+  margin-bottom: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-right: 2px;
 }
 
 .header2__locationContainer:hover {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
-.header2__option{
-    display: flex;
-    flex-direction: column;
+.header2__option {
+  display: flex;
+  flex-direction: column;
 }
 
 .header2__optionLineOne {
-    font-size: 10px;
+  font-size: 10px;
 }
 
-.header2__optionLineTwo{
-    font-size: 13px;
-    font-weight: 800;
+.header2__optionLineTwo {
+  font-size: 13px;
+  font-weight: 800;
 }
 
-.header2__ul{
-    display: flex;
-    font-size: 13px;
-    list-style-type: none;
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
-    
+.header2__ul {
+  display: flex;
+  font-size: 13px;
+  list-style-type: none;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .header2__ul > li {
-    margin: 2px;
-    padding: 10px 7px 2px 5px;
-    color: #cccccc;
+  margin: 2px;
+  padding: 10px 7px 2px 5px;
+  color: #cccccc;
 }
 
 .header2__ul li:hover {
-    border: 1px solid white;
+  border: 1px solid white;
 }
 
 .header2__final {
-    font-size: 14px;
-    font-weight: 800;
-    margin-bottom: 3px;
-    width: 350px;
-    padding: 8px;
+  font-size: 14px;
+  font-weight: 800;
+  margin-bottom: 3px;
+  width: 350px;
+  padding: 8px;
 }
 
 .header2__final:hover {
-    border: 1px solid white;
-
+  border: 1px solid white;
 }
