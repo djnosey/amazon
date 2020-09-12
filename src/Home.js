@@ -9,7 +9,6 @@ import Ad4 from "./Ad4";
 import FinalRow from "./FinalRow";
 import homeImage from "/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/images/homeImage.jpg";
 import BackToTop from "./BackToTop";
-import Footer1 from "./Footer1";
 
 function Home() {
   return (
@@ -124,7 +123,7 @@ function Home() {
         
           <BackToTop />
         
-        <Footer1 />
+        
       </div>
     </div>
   );
