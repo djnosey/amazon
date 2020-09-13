@@ -47,8 +47,15 @@
     border: 1px solid;
     font-weight: bolder;
     margin-top: 10px;
+    margin-bottom: 10px;
     border-color: #a88734 #9c7e31 #846a29;
     color: #111;
+  }
+
+  .cardElement {
+      border: 1px solid lightgray;
+      padding: 5px;
+      margin-bottom: 10px;
   }
 
 

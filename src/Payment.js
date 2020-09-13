@@ -129,7 +129,11 @@ function Payment() {
                             {/* Stripe magic will go */}
 
                             <form onSubmit={handleSubmit}>
-                                <CardElement onChange={handleChange}/>
+
+
+                                <CardElement className ="cardElement" onChange={handleChange}/>
+
+
 
                                 <div className='payment__priceContainer'>
                                     <CurrencyFormat
@@ -142,10 +146,14 @@ function Payment() {
                                         thousandSeparator={true}
                                         prefix={"$"}
                                     />
-                                    <button disabled={processing || disabled || succeeded}>
+                                    <button disabled={!user|| processing || disabled || succeeded}>
                                         <span>{processing ? <p>Processing</p> : "Buy Now"}</span>
                                     </button>
                                 </div>
+
+                                        <span>{!user ? <p>You must <Link to ="/login">sign in</Link> before making a purchase</p> : ""}</span>
+
+
 
                                   {/* Errors */}
                                 {error && <div>{error}</div>}
