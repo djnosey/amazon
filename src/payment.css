@@ -26,8 +26,29 @@
     flex: 0.2;
 }
 
-.payment__address, .payment__items {
+.payment__address, .payment__items, .payment__details {
     flex: 0.8;
 }
+
+.payment__details > h3 {
+    padding-bottom: 20px;
+  }
+
+.payment__details > form > div > button {
+    background: #f0c14b;
+    background: linear-gradient(
+        0deg,
+        rgba(246, 196, 33, 0.9) 30%,
+        rgba(245, 220, 149, 0.8) 100%
+      );
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+  }
 
 
