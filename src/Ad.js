@@ -6,7 +6,7 @@ function Ad() {
       <p>
         You are on amazon.com. You can also shop on Amazon Spain for millions of
         products with fast local delivery.{" "}
-        <a href="https://www.amazon.es/?ref=aisgw_intl_stripe_es">
+        <a href="#top">
           Click here to go to amazon.es
         </a>
       </p>
