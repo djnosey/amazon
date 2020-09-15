@@ -76,3 +76,9 @@
 .header2__final:hover {
   border: 1px solid white;
 }
+
+@media (max-width:900px) {
+  .header2__final{
+    display: none;
+  }
+}

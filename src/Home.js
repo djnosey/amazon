@@ -11,9 +11,6 @@ import homeImage from "/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/
 import BackToTop from "./BackToTop";
 
 function Home() {
-
-
-
   return (
     <div className="home">
       <div id="top" className="home__container">
@@ -41,12 +38,7 @@ function Home() {
             a="See more"
           />
 
-
-
-  <Ad2 /> 
-
-
-
+          <Ad2 className="smallScreen" />
         </div>
 
         <div className="home__row">
@@ -57,14 +49,6 @@ function Home() {
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           />
-          <Product
-            id="49538094"
-            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
-            price={239.0}
-            rating={4}
-            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
-          />
-
           <Product
             id="49538094"
             title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
@@ -86,6 +70,14 @@ function Home() {
             rating={5}
             image="https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._SX325_BO1,204,203,200_.jpg"
           />
+          <Product
+            id="49538094"
+            title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
+            price={239.0}
+            rating={4}
+            image="https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg"
+          />
+
           <Product
             id="49538094"
             title="Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Litre Glass Bowl"
@@ -128,10 +120,7 @@ function Home() {
           <FinalRow />
         </div>
 
-        
-          <BackToTop />
-        
-        
+        <BackToTop />
       </div>
     </div>
   );
