@@ -42,7 +42,7 @@
   color: #111111;
 }
 
-@media (max-width:1100px) {
+@media (max-width:1000px) {
   .ad2{
     display: none;
   }

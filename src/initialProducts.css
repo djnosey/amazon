@@ -43,3 +43,10 @@
   color: #0066c0;
   font-size: 13px;
 }
+
+@media (max-width:414px) {
+  .initialProducts{
+    display: none;
+
+  }
+}

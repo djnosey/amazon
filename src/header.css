@@ -81,3 +81,23 @@
 .header__option:hover {
   border: 1px solid white;
 }
+
+@media (max-width:414px) {
+  .header__optionLineOne,.header__optionLineTwo, .header__searchInput{
+    display: none;
+  }
+}
+
+@media (max-width:414px) {
+  .header__searchIcon{
+    border-radius: 8px 8px 8px 8px;
+
+  }
+}
+
+@media (max-width:414px) {
+  .header__optionBasket{
+    margin-right: 15px;
+
+  }
+}

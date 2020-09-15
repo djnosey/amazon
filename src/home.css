@@ -26,4 +26,10 @@
   }
 }
 
+@media (max-width:414px) {
+  .home__row{
+    flex-wrap: wrap;
+  }
+}
+
 
