@@ -11,6 +11,9 @@ import homeImage from "/Users/stevenpayne/Desktop/amazon-clone/amazon-clone/src/
 import BackToTop from "./BackToTop";
 
 function Home() {
+
+
+
   return (
     <div className="home">
       <div id="top" className="home__container">
@@ -38,7 +41,12 @@ function Home() {
             a="See more"
           />
 
-          <Ad2 />
+
+
+  <Ad2 /> 
+
+
+
         </div>
 
         <div className="home__row">
